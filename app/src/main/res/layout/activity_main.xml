@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="몸무게 (kg)"
+        android:textSize="20dp"
+        android:textColor="#2020fe" />
+    <SeekBar
+        android:id="@+id/skb_kg1"
+        android:max="230"
+        android:min="70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/kg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="35.0 kg"
+        android:textSize="20dp"
+        android:textColor="#2020fe" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="키 (cm)"
+        android:textSize="20dp"
+        android:textColor="#2020fe" />
+    <SeekBar
+        android:id="@+id/skb_cm1"
+        android:max="280"
+        android:min="45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90.0 cm"
+        android:textSize="20dp"
+        android:textColor="#2020fe" />
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:id="@+id/bmi1"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#2020fe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result1"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#2020fe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
